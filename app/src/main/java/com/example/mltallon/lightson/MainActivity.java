@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Switch mySwitch1,mySwitch2;
     private TextView myTextViewOutput;
+
+    //IP publica e o porto de UPnp
     private final String IP_RBPI = "192.168.0.246";
     private final int PORT_LISTEN = 8080;
 
@@ -67,14 +69,14 @@ public class MainActivity extends AppCompatActivity {
                 //Manda el mensaje L#2#ON para la RbPi
                 String msg = "L#2#ON";
                 new upnpContact().execute(msg);
-                Toast.makeText(getApplicationContext(), "La luz del Jardín está encendida",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), "La luz del Jardín está encendida",Toast.LENGTH_SHORT).show();
 
                 } else {
 
                 //Manda el mensaje L#2#OFF para la RbPi
                 String msg = "L#2#OFF";
                 new upnpContact().execute(msg);
-                Toast.makeText(getApplicationContext(),"La luz del Jardín está apagada", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(),"La luz del Jardín está apagada", Toast.LENGTH_SHORT).show();
 
                 }
 
@@ -131,9 +133,9 @@ public class MainActivity extends AppCompatActivity {
                             msgR = new String(message, 0, p.getLength());
 
                             if(msgR == "OK"){
-                                msgR = "Cambiado";
+                                msgR = "Encendida";
                             }else{
-                                msgR = "No cambiado";
+                                msgR = "No encendida";
                             }
                             received = true;
                             Log.e("MSG","Rec");
