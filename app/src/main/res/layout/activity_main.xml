@@ -49,11 +49,12 @@
         android:layout_alignStart="@+id/switch1" />
 
     <TextView
+        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:layout_below="@+id/textView2"
-        android:layout_toStartOf="@+id/switch2"
-        android:layout_marginTop="32dp" />
+        android:layout_below="@+id/switch2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:id="@+id/lblStatus" />
 
 </RelativeLayout>

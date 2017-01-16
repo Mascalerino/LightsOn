@@ -2,46 +2,103 @@
 <items version="2" >
 
     <item
-        jar="D:\Android\LightsOn\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="D:\Android\LightsOn\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_4c2eef8154d4baadf8ab9d0726f9e846edc8c044.jar" />
-    </item>
-    <item
-        jar="D:\Android\LightsOn\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="D:\Android\LightsOn\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_1e62d8ba7e3a5cf01dc57f0d00606139176a40aa.jar" />
-    </item>
-    <item
-        jar="D:\Android\LightsOn\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="D:\Android\LightsOn\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_f64a82c7242619cbe6dbac4b91ec708350b4cb8a.jar" />
-    </item>
-    <item
-        jar="C:\Users\mlore\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="D:\Android\LightsOn\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_1f7921a5584177533c9f6a98843be7c9f1d5839a.jar" />
-    </item>
-    <item
-        jar="D:\Android\LightsOn\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="D:\Android\LightsOn\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_7886ecee9684e4118a793bb109f8c285098513cd.jar" />
+        <dex dex="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_f40032d399c2fb5ea5dadad46004d1f1233c90fa\classes.dex" />
     </item>
     <item
-        jar="D:\Android\LightsOn\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_ddc2deca65203b86174856dbe4eb37db296ed644\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="D:\Android\LightsOn\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_f42388bde63321b88b6d0878e358f7346e7010a1.jar" />
+        <dex dex="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_d0c6ad772bd3a7901a34864844d748b419fa6ced\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_d81cd264233c7e05b20c71ab7de86ab0bde98da1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_d34cdd47401eb1b3ac14f758c82ee350b3aaeafc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mlore\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_1f7921a5584177533c9f6a98843be7c9f1d5839a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1c7a2a0626b7a6f5411cdf6cde26c366f69c9d48">
+        <dex dex="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a6570bc1e10c3d7853711c2ff49a5eccafacfd7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_d4787b8d3262920d45528fefdf2c564c7694aaa5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_5d7818df683f85c8ade2be2ef5ec45f4eaa3231e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_092c55594eb45c51a3c4b56a1c943b436f15570c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4f145b6ba63e9566e680e9798f42092a6347b8f7">
+        <dex dex="C:\Users\mlore\Desktop\Android\AndroidStudioProjects\LightsOn\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d81bc5f842d280404ce448f83bcc61ea6baa343b\classes.dex" />
     </item>
 
 </items>
