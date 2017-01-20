@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">LightsOn</string>
-    <string name="status_init">Preparing...</string>
-    <string name="status_incorrect_url">URL is invalid</string>
-    <string name="status_ok">Led Mangament</string>
-    <string name="status_error">Error led managament</string>
-    <string name="status_connecting">Connecting to server...</string>
-    <string name="status_not_connected">Please activate net connectivity</string>
+    <string name="status_init">Conectando...</string>
+    <string name="status_incorrect_url">La URL es invalida</string>
+    <string name="status_ok">Gestión de Leds</string>
+    <string name="status_error">Error en la gestión de los leds</string>
+    <string name="status_connecting">Conectando al servidor...</string>
+    <string name="status_not_connected">Por favor activa Internet</string>
 </resources>

@@ -1,26 +1,23 @@
 package com.example.mltallon.lightson;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.View;
 import android.view.Window;
 import android.widget.CompoundButton;
-import android.widget.ImageButton;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.content.SharedPreferences;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Timer;
-import java.util.TimerTask;
 
 public class MainActivity extends Activity {
 
     private Handler handler;
-    private Timer timer;
     private Switch mySwitch1,mySwitch2;
-
+    public TextView lblStatus;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -29,7 +26,11 @@ public class MainActivity extends Activity {
         setContentView( R.layout.activity_main );
 
         this.handler = new Handler();
+        mySwitch1 = (Switch) findViewById(R.id.switch1);
+        mySwitch2 = (Switch) findViewById(R.id.switch2);
+
     }
+
 
     @Override
     public void onResume()
@@ -37,9 +38,16 @@ public class MainActivity extends Activity {
         super.onResume();
 
         this.setStatus( R.string.status_init );
-        mySwitch1 = (Switch) findViewById(R.id.switch1);
-        mySwitch2 = (Switch) findViewById(R.id.switch2);
 
+
+        SharedPreferences prefs = this.getSharedPreferences("APP", Context.MODE_PRIVATE);
+        boolean salon = prefs.getBoolean("salon",false);
+        boolean jardin = prefs.getBoolean("jardin",false);
+
+        mySwitch1.setChecked(salon);
+        mySwitch2.setChecked(jardin);
+
+        //Cambios en el listener del Switch del Salon
         mySwitch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 
             @Override
@@ -70,6 +78,7 @@ public class MainActivity extends Activity {
             }
         });
 
+        //Cambios en el listener del Switch del Jardin
         mySwitch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 
             @Override
@@ -99,11 +108,13 @@ public class MainActivity extends Activity {
 
             }
         });
+
     }
 
     public void setStatus(int msgId) {
-        final TextView lblStatus = (TextView) this.findViewById( R.id.lblStatus );
-
+        lblStatus = (TextView) this.findViewById( R.id.lblStatus );
         lblStatus.setText( msgId );
+
     }
+
 }
