@@ -18,10 +18,10 @@ public class LedManagament extends AsyncTask<URL, Void, Boolean> {
     public static final String LOG_TAG = "LedManagament";
 
     //URLs para el encendido y apagado de los leds
-    public static final String SALON_0 = "http://193.146.46.24:46464/control.html?salon=off";
-    public static final String SALON_1 = "http://193.146.46.24:46464/control.html?salon=on";
-    public static final String JARDIN_0 = "http://193.146.46.24:46464/control.html?jardin=off";
-    public static final String JARDIN_1 = "http://193.146.46.24:46464/control.html?jardin=on";
+    public static final String SALON_0 = "http://192.168.29.201:46464/control.html?salon=off";
+    public static final String SALON_1 = "http://192.168.29.201:46464/control.html?salon=on";
+    public static final String JARDIN_0 = "http://192.168.29.201:46464/control.html?jardin=off";
+    public static final String JARDIN_1 = "http://192.168.29.201:46464/control.html?jardin=on";
 
     private MainActivity activity;
 
